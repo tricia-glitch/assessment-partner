@@ -1,0 +1,5 @@
+# Assessment Partner: chat companion to triciafriedman.com/ai-assessment-frameworks/
+# The page is index.html; the edge function serves /api/partner.
+[build]
+  publish = "."
+  command = ""

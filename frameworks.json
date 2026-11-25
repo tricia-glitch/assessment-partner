@@ -1,0 +1,766 @@
+[
+ {
+  "date": "Sep 2026",
+  "type": "Written for AI",
+  "region": "United States",
+  "title": "MLA Framework for AI-Resilient Assessment and Grading: Designing for Motivation and Validity",
+  "url": "https://mlaai.hcommons.org/pedagogy-working-group/mla-framework-for-ai-resilient-assessment-and-grading-designing-for-motivation-and-validity/",
+  "by": "MLA AI and Pedagogy Working Group",
+  "summary": "A menu of options for humanities teachers that pairs trust-based practices for intrinsic motivation with guardrails for validity, and says plainly that no assessment is AI-proof.",
+  "also": [
+   {
+    "label": "PDF",
+    "url": "https://hcommons.org/app/uploads/sites/1004574/2026/09/AITF-Assessment-Framework_09-15-26.pdf"
+   }
+  ],
+  "purposes": [
+   "To grow",
+   "To show real understanding"
+  ],
+  "id": 1
+ },
+ {
+  "date": "Sep 2026",
+  "type": "Written for AI",
+  "region": "India",
+  "title": "Generative AI is forcing universities to rethink assessment",
+  "url": "https://www.policycircle.org/opinion/generative-ai-universities-assess/",
+  "by": "Policy Circle (commentary on IIT Delhi)",
+  "summary": "Describes IIT Delhi's institute-wide AI licences, so access doesn't depend on what a student can pay, and an AI stress test that checks whether a model can complete an existing task too easily.",
+  "also": [],
+  "purposes": [
+   "To widen opportunity",
+   "To show real understanding"
+  ],
+  "id": 2
+ },
+ {
+  "date": "Aug 2026",
+  "type": "Written for AI",
+  "region": "South Africa",
+  "title": "Reconceptualising global citizenship education for the age of generative AI: an Ubuntu-informed framework for AI literacy",
+  "url": "https://www.scielo.org.za/pdf/sajhe/v40n4/17.pdf",
+  "by": "F. Waghid, South African Journal of Higher Education",
+  "summary": "Argues from Ubuntu that universities should answer generative AI with a contextual, relational approach instead of surveillance and compliance.",
+  "also": [],
+  "purposes": [
+   "To learn with others",
+   "To widen opportunity"
+  ],
+  "id": 3
+ },
+ {
+  "date": "Aug 2026",
+  "type": "Written for AI",
+  "region": "Latin America",
+  "title": "How universities can govern AI (Integrity AI project)",
+  "url": "https://tecscience.tec.mx/en/education-and-humanism/how-universities-can-govern-ai/",
+  "by": "Tec de Monterrey, TecScience",
+  "summary": "An Erasmus+ project that first assessed how ready universities in Mexico, Brazil, Colombia and Guatemala are to govern AI before building governance frameworks with them.",
+  "also": [],
+  "purposes": [
+   "To widen opportunity"
+  ],
+  "id": 4
+ },
+ {
+  "date": "Jun 2026",
+  "type": "Written for AI",
+  "region": "United States",
+  "title": "AI and the Humanities: A Framework for Language and Literary Scholarship",
+  "url": "https://mlaai.hcommons.org/ai-and-the-humanities-a-framework-for-language-and-literary-scholarship/",
+  "by": "MLA AI and Research Working Group",
+  "summary": "The MLA's companion framework on AI in research, which the assessment framework points to for guidance on citing and disclosing AI use.",
+  "also": [],
+  "purposes": [
+   "To judge quality"
+  ],
+  "id": 5
+ },
+ {
+  "date": "Jun 2026",
+  "type": "Written for AI",
+  "region": "Australia",
+  "title": "Enacting assessment reform in a time of artificial intelligence",
+  "url": "https://www.teqsa.gov.au/sites/default/files/2026-06/enacting-assessment-reform-in-a-time-of-artificial-intelligence-web.pdf",
+  "by": "TEQSA (Australia's higher education regulator)",
+  "summary": "TEQSA's follow-up to its 2023 principles, on putting assessment reform into practice across whole programs.",
+  "also": [],
+  "purposes": [
+   "To show real understanding"
+  ],
+  "id": 6
+ },
+ {
+  "date": "Apr 2026",
+  "type": "Written for AI",
+  "region": "Mexico",
+  "title": "Guía de uso de inteligencia artificial generativa en evaluación educativa en licenciatura",
+  "url": "https://www.cee.unam.mx/wp-content/uploads/2026/04/GUIA_USO_IAGEN_EVALUACION_LICENCIATURA_UNAM.pdf",
+  "by": "UNAM Consejo de Evaluación Educativa",
+  "summary": "Mexico's largest public university sets out how generative AI can serve undergraduate assessment, framed as a way to evaluate, learn and learn to evaluate (in Spanish).",
+  "also": [],
+  "purposes": [
+   "To judge quality",
+   "To grow"
+  ],
+  "id": 7
+ },
+ {
+  "date": "Apr 2026",
+  "type": "Written for AI",
+  "region": "South Africa",
+  "title": "Assessments in the age of AI",
+  "url": "https://ai.uct.ac.za/node/615220",
+  "by": "University of Cape Town AI Initiative",
+  "summary": "Introduces UCT's Start with Outcomes approach, which places each learning outcome on a five-step scale from fully human to AI-dominant and then matches the assessment to it.",
+  "also": [],
+  "purposes": [
+   "To show real understanding"
+  ],
+  "id": 8
+ },
+ {
+  "date": "Mar 2026",
+  "type": "Written for AI",
+  "region": "Hong Kong",
+  "title": "Guidelines for Revising Programme Curricula to Integrate Generative AI",
+  "url": "https://aihub.hkuspace.hku.hk/wp-content/uploads/2026/05/HKUSPACE_Guidelines_Integrating_GenAI_Curriculum_27032026.pdf",
+  "by": "HKU School of Professional and Continuing Education",
+  "summary": "Programme-level guidance that calls for AI-aware rubrics and asks students to keep a record of their AI use, including the tool, prompts and dates.",
+  "also": [],
+  "purposes": [
+   "To judge quality"
+  ],
+  "id": 9
+ },
+ {
+  "date": "Feb 2026",
+  "type": "Written for AI",
+  "region": "South Africa",
+  "title": "FEBE Guidelines for the Use of Generative Artificial Intelligence",
+  "url": "https://www.wits.ac.za/media/wits-university/faculties-and-schools/-engineering-and-the-built-environment/documents/Guidlines-GAI.PDF",
+  "by": "University of the Witwatersrand, Faculty of Engineering and the Built Environment",
+  "summary": "Faculty guidance on generative AI in learning, teaching, research and administration, sitting under Wits' university-wide academic integrity framework.",
+  "also": [],
+  "purposes": [
+   "To show real understanding"
+  ],
+  "id": 10
+ },
+ {
+  "date": "Feb 2026",
+  "type": "Written for AI",
+  "region": "United States",
+  "title": "Statement on AI and Assessment",
+  "url": "https://www.mla.org/Resources/Advocacy/Executive-Council-Actions/2026/Statement-on-AI-and-Assessment",
+  "by": "MLA Task Force on AI in Research and Teaching",
+  "summary": "The MLA's earlier position statement on AI and assessment, which the September framework builds on.",
+  "also": [],
+  "purposes": [
+   "To grow",
+   "To show real understanding"
+  ],
+  "id": 11
+ },
+ {
+  "date": "Jan 2026",
+  "type": "Written for AI",
+  "region": "South Africa",
+  "title": "Responding to AI in Assessment in Universities: Do's, Don'ts and Don't Knows",
+  "url": "https://files.su.ac.za/public/centre-teaching-and-learning/documents/2026-02/responding-ai-assessment-universities.pdf",
+  "by": "University of Cape Town and Stellenbosch University",
+  "summary": "A practical guide for lecturers that sorts advice into what to do, what to avoid and what nobody knows yet.",
+  "also": [],
+  "purposes": [
+   "To show real understanding"
+  ],
+  "id": 12
+ },
+ {
+  "date": "Nov 2025",
+  "type": "Written for AI",
+  "region": "South Africa",
+  "title": "Perspectives from South Africa on GenAI in Higher Education: A Postdigital Dialogue with the Global Context",
+  "url": "https://link.springer.com/article/10.1007/s42438-025-00593-6",
+  "by": "Postdigital Science and Education",
+  "summary": "South African scholars, several writing from Ubuntu, argue that assessment can't be treated as neutral in universities that claim social justice goals.",
+  "also": [],
+  "purposes": [
+   "To widen opportunity",
+   "To learn with others"
+  ],
+  "id": 13
+ },
+ {
+  "date": "Sep 2025",
+  "type": "Grading and assessment design",
+  "region": "Ireland",
+  "title": "Interactive oral assessment: a model for robust and authentic assessment design",
+  "url": "https://www.qqi.ie/sites/default/files/2026-04/dcu-interactive-oral-assessment-a-model-for-robust-and-authentic-assessment-design.pdf",
+  "by": "Dublin City University, for Quality and Qualifications Ireland",
+  "summary": "DCU's report on the interactive orals it has run since 2020, building on the Griffith model, with design guidance and student feedback.",
+  "also": [],
+  "purposes": [
+   "To show real understanding",
+   "To learn with others"
+  ],
+  "id": 14
+ },
+ {
+  "date": "Sep 2025",
+  "type": "Written for AI",
+  "region": "Australia",
+  "title": "The wicked problem of AI and assessment",
+  "url": "https://doi.org/10.1080/02602938.2025.2553340",
+  "by": "Corbin, Bearman, Boud and Dawson, Assessment and Evaluation in Higher Education",
+  "summary": "Argues that AI and assessment is a wicked problem with no final solution, only ongoing adaptive work, the stance the MLA framework adopts.",
+  "also": [],
+  "purposes": [
+   "To show real understanding"
+  ],
+  "id": 15
+ },
+ {
+  "date": "Aug 2025",
+  "type": "Grading and assessment design",
+  "region": "Australia",
+  "title": "How interactive orals transform assessment and how to implement them",
+  "url": "https://www.timeshighereducation.com/campus/how-ios-transform-assessment-and-how-implement-them",
+  "by": "Popi Sotiriadou and Dani Logan-Fleming, THE Campus",
+  "summary": "Explains interactive orals: unscripted, scenario-based professional conversations, deliberately different from a viva or a presentation.",
+  "also": [],
+  "purposes": [
+   "To show real understanding",
+   "To learn with others"
+  ],
+  "id": 16
+ },
+ {
+  "date": "Jul 2025",
+  "type": "Written for AI",
+  "region": "South Africa",
+  "title": "UCT scraps flawed AI detectors",
+  "url": "https://news.uct.ac.za/article/-2025-07-24-uct-scraps-flawed-ai-detectors",
+  "by": "University of Cape Town News",
+  "summary": "UCT's announcement that it stopped using AI detection tools because they are unreliable.",
+  "also": [],
+  "purposes": [
+   "To widen opportunity"
+  ],
+  "id": 17
+ },
+ {
+  "date": "May 2025",
+  "type": "Written for AI",
+  "region": "Australia",
+  "title": "Talk is cheap: why structural assessment changes are needed for a time of GenAI",
+  "url": "https://doi.org/10.1080/02602938.2025.2503964",
+  "by": "Corbin et al., Assessment and Evaluation in Higher Education",
+  "summary": "Argues that rules and declarations about AI use don't secure assessment on their own, and that the structure of the tasks has to change.",
+  "also": [],
+  "purposes": [
+   "To show real understanding"
+  ],
+  "id": 18
+ },
+ {
+  "date": "May 2025",
+  "type": "Written for AI",
+  "region": "China",
+  "title": "Guide to Using Generative AI in Primary and Secondary Schools (2025 Edition)",
+  "url": "https://cset.georgetown.edu/publication/china-school-gen-ai-use-guide-2025/",
+  "by": "China Ministry of Education, translated by CSET Georgetown",
+  "summary": "China's national guide for schools, which keeps assessment human-led and advises against using AI to evaluate students directly.",
+  "also": [],
+  "purposes": [
+   "To learn with others"
+  ],
+  "id": 19
+ },
+ {
+  "date": "May 2025",
+  "type": "Written for AI",
+  "region": "Mexico",
+  "title": "Recomendaciones para el uso de inteligencia artificial generativa en la docencia (2nd edition)",
+  "url": "https://iagen.unam.mx/recursos/Recomendaciones_IAGEN_UNAM_2025.pdf",
+  "by": "UNAM",
+  "summary": "UNAM's general recommendations for teaching with generative AI, including a chapter on assessment (in Spanish).",
+  "also": [],
+  "purposes": [
+   "To grow"
+  ],
+  "id": 20
+ },
+ {
+  "date": "Apr 2025",
+  "type": "Written for AI",
+  "region": "Philippines",
+  "title": "Policies on Generative Artificial Intelligence in Higher Education",
+  "url": "https://old.dlsu.edu.ph/wp-content/uploads/pdf/provost/forms/policy-for-generative-ai-in-education.pdf",
+  "by": "De La Salle University",
+  "summary": "A university-wide policy that includes the rule that no decision should rest on generative AI output alone.",
+  "also": [],
+  "purposes": [
+   "To judge quality"
+  ],
+  "id": 21
+ },
+ {
+  "date": "Mar 2025",
+  "type": "Written for AI",
+  "region": "Australia",
+  "title": "The Sydney Assessment Framework",
+  "url": "https://educational-innovation.sydney.edu.au/teaching@sydney/the-sydney-assessment-framework/",
+  "by": "University of Sydney",
+  "summary": "Sets out Sydney's two lanes: secure, supervised tasks that confirm learning, and open tasks where AI can't be banned and which make up most of the assessment.",
+  "also": [
+   {
+    "label": "Two-lane FAQ (Jul 2024)",
+    "url": "https://educational-innovation.sydney.edu.au/teaching@sydney/frequently-asked-questions-about-the-two-lane-approach-to-assessment-in-the-age-of-ai/"
+   }
+  ],
+  "purposes": [
+   "To show real understanding"
+  ],
+  "id": 22
+ },
+ {
+  "date": "2025",
+  "type": "Written for AI",
+  "region": "International",
+  "title": "AI Fluency Framework (the 4Ds)",
+  "url": "https://www.anthropic.com/ai-fluency/overview",
+  "by": "Rick Dakan and Joseph Feller with Anthropic",
+  "summary": "Four competencies (Delegation, Description, Discernment, Diligence) that can serve as criteria for assessing how students work with AI.",
+  "also": [],
+  "purposes": [
+   "To judge quality"
+  ],
+  "id": 23
+ },
+ {
+  "date": "2025",
+  "type": "Written for AI",
+  "region": "Pan-African",
+  "title": "Decolonising AI: a Pan-African collaboration",
+  "url": "https://ulspace.ul.ac.za/items/79d9bc37-e6ae-4374-b5ff-88d1cb20c9cd/full",
+  "by": "Hoosen et al., University of Limpopo repository",
+  "summary": "Looks at AI through a decolonial lens, with a focus on multilingualism, assessment and the language hierarchies built into training data.",
+  "also": [],
+  "purposes": [
+   "To widen opportunity"
+  ],
+  "id": 24
+ },
+ {
+  "date": "Dec 2024",
+  "type": "Written for AI",
+  "region": "Canada",
+  "title": "Ubuntu-informed approaches to addressing plagiarism and the use of AI in higher education",
+  "url": "https://ojs.library.dal.ca/auts/article/view/12280",
+  "by": "Susan Brigham and Randy Headley",
+  "summary": "Draws on a survey of students of African descent to recommend Ubuntu-informed teaching about academic integrity and ethical AI use.",
+  "also": [],
+  "purposes": [
+   "To learn with others",
+   "To widen opportunity"
+  ],
+  "id": 25
+ },
+ {
+  "date": "Aug 2024",
+  "type": "Written for AI",
+  "region": "International",
+  "title": "The AI Assessment Scale (revised)",
+  "url": "https://leonfurze.com/2024/09/updating-the-ai-assessment-scale/",
+  "by": "Mike Perkins, Jasper Roe, Jason MacVaugh and Leon Furze",
+  "summary": "Five levels, from No AI to AI Exploration, that a teacher sets for each task; the 2024 revision dropped the traffic-light colours so the levels don't read as a ranking.",
+  "also": [
+   {
+    "label": "Paper (arXiv, Dec 2024)",
+    "url": "https://arxiv.org/abs/2412.09029"
+   },
+   {
+    "label": "aiassessmentscale.com",
+    "url": "https://aiassessmentscale.com/"
+   }
+  ],
+  "purposes": [
+   "To judge quality"
+  ],
+  "id": 26
+ },
+ {
+  "date": "Aug 2024",
+  "type": "Long-running alternatives",
+  "region": "Aotearoa New Zealand and Pacific",
+  "title": "Pasifika students' perceptions of using talanoa as an assessment tool in NCEA Level 2 mathematics",
+  "url": "https://researchcommons.waikato.ac.nz/entities/publication/f451ffde-f2c2-452f-a839-e2e5c242e19b",
+  "by": "Tafa Naulivou Sisitoutai, University of Waikato",
+  "summary": "A study in which Pasifika students found talanoa, an open and respectful Pacific form of conversation, a more inclusive way to be assessed in maths.",
+  "also": [],
+  "purposes": [
+   "To learn with others",
+   "To widen opportunity"
+  ],
+  "id": 27
+ },
+ {
+  "date": "Aug 2024",
+  "type": "Written for AI",
+  "region": "Singapore",
+  "title": "Policy for Use of AI in Teaching and Learning",
+  "url": "https://ctlt.nus.edu.sg/policy-for-use-of-ai-in-teaching-and-learning",
+  "by": "National University of Singapore",
+  "summary": "Allows AI in unsupervised work when it is acknowledged, and says that work should be graded on its quality without a penalty for the AI use itself.",
+  "also": [],
+  "purposes": [
+   "To widen opportunity"
+  ],
+  "id": 28
+ },
+ {
+  "date": "2024",
+  "type": "Written for AI",
+  "region": "Australia",
+  "title": "Developing evaluative judgement for a time of generative artificial intelligence",
+  "url": "https://opus.lib.uts.edu.au/handle/10453/179196",
+  "by": "Bearman, Tai, Dawson, Boud and Ajjawi",
+  "summary": "Proposes building students' judgement of AI outputs and AI processes, and asks how AI might in turn assess students' own judgement.",
+  "also": [],
+  "purposes": [
+   "To judge quality"
+  ],
+  "id": 29
+ },
+ {
+  "date": "Nov 2023",
+  "type": "Written for AI",
+  "region": "Australia",
+  "title": "Assessment reform for the age of artificial intelligence",
+  "url": "https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf",
+  "by": "Lodge, Howard, Bearman and Dawson for TEQSA",
+  "summary": "Two propositions and five principles from Australia's regulator, calling for assessment to be redesigned across whole programs rather than one task at a time.",
+  "also": [],
+  "purposes": [
+   "To show real understanding"
+  ],
+  "id": 30
+ },
+ {
+  "date": "Nov 2023",
+  "type": "Written for AI",
+  "region": "United States",
+  "title": "AI Pedagogy Project",
+  "url": "https://aipedagogy.org/",
+  "by": "metaLAB (at) Harvard",
+  "summary": "An open collection of classroom assignments, contributed by teachers around the world, that use AI critically and creatively.",
+  "also": [],
+  "purposes": [
+   "To judge quality",
+   "To grow"
+  ],
+  "id": 31
+ },
+ {
+  "date": "2023",
+  "type": "Written for AI",
+  "region": "Hong Kong",
+  "title": "A comprehensive AI policy education framework for university teaching and learning",
+  "url": "https://link.springer.com/10.1186/s41239-023-00408-3",
+  "by": "Cecilia Ka Yuk Chan, University of Hong Kong",
+  "summary": "Builds an AI Ecological Education Policy Framework with pedagogical, governance and operational dimensions from a survey of 457 students and 180 staff.",
+  "also": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2305.00280"
+   }
+  ],
+  "purposes": [
+   "To learn with others"
+  ],
+  "id": 32
+ },
+ {
+  "date": "2023",
+  "type": "Written for AI",
+  "region": "Hong Kong",
+  "title": "Guidelines and Principles on Using Generative AI for Higher Education",
+  "url": "https://cei.hkust.edu.hk/zh-hk/node/492",
+  "by": "HKUST Center for Education Innovation",
+  "summary": "HKUST's course-level policy, in force since Fall 2023, which lets each instructor set their own AI rules.",
+  "also": [
+   {
+    "label": "Faculty Companion",
+    "url": "https://cei.hkust.edu.hk/sites/default/files/content/GenAI%20Faculty%20Companion%20(HKUST).html"
+   }
+  ],
+  "purposes": [
+   "To judge quality"
+  ],
+  "id": 33
+ },
+ {
+  "date": "Apr 2022",
+  "type": "Grading and assessment design",
+  "region": "United States",
+  "title": "Writing Assessment: A Position Statement",
+  "url": "https://cccc.ncte.org/cccc/resources/positions/writingassessment",
+  "by": "Conference on College Composition and Communication",
+  "summary": "The writing-studies position that assessment is a social activity that should serve learning, one of the MLA framework's foundations.",
+  "also": [],
+  "purposes": [
+   "To grow",
+   "To widen opportunity"
+  ],
+  "id": 34
+ },
+ {
+  "date": "Oct 2020",
+  "type": "Grading and assessment design",
+  "region": "China",
+  "title": "Overall Plan for Deepening Educational Evaluation Reform in the New Era (English translation)",
+  "url": "https://internationaleducation.gov.au/international-network/china/PolicyUpdates-China/Documents/2.%20Translation%20of%20Overall%20Plan%20for%20Deepening%20Educational%20Evaluation%20Reform%20in%20the%20New%20Era%20-%20final.pdf",
+  "by": "CPC Central Committee and State Council, translated by the Australian Government",
+  "summary": "A national plan to reduce the weight of exam scores and diplomas, strengthen process evaluation and explore value-added evaluation that measures growth.",
+  "also": [],
+  "purposes": [
+   "To grow"
+  ],
+  "id": 35
+ },
+ {
+  "date": "2019",
+  "type": "Grading and assessment design",
+  "region": "United States",
+  "title": "Writing Assessment, Social Justice, and the Advancement of Opportunity",
+  "url": "https://wacclearinghouse.org/books/perspectives/assessment/",
+  "by": "Mya Poe, Asao B. Inoue and Norbert Elliot (eds.), WAC Clearinghouse",
+  "summary": "An open-access collection on making writing assessment fairer, cited by the MLA on the limits of timed, tech-free testing.",
+  "also": [],
+  "purposes": [
+   "To widen opportunity"
+  ],
+  "id": 36
+ },
+ {
+  "date": "2018",
+  "type": "Grading and assessment design",
+  "region": "Australia",
+  "title": "Developing evaluative judgement: enabling students to make decisions about the quality of work",
+  "url": "https://link.springer.com/article/10.1007/s10734-017-0220-3",
+  "by": "Tai, Ajjawi, Boud, Dawson and Panadero, Higher Education",
+  "summary": "Defines evaluative judgement, the ability to judge the quality of your own and others' work, and argues it should be a goal of higher education.",
+  "also": [],
+  "purposes": [
+   "To judge quality"
+  ],
+  "id": 37
+ },
+ {
+  "date": "2017",
+  "type": "Grading and assessment design",
+  "region": "United States and international",
+  "title": "Mastery Transcript Consortium",
+  "url": "https://mastery.org/what-we-do/",
+  "by": "Network of secondary schools",
+  "summary": "Replaces grades and GPAs with credits for competencies each school defines, recorded on a transcript colleges now accept.",
+  "also": [
+   {
+    "label": "The 74 on its first test",
+    "url": "https://www.the74million.org/article/the-mastery-transcript-consortium-has-been-developing-a-gradeless-transcript-for-college-admissions-this-fall-it-gets-its-first-test/"
+   }
+  ],
+  "purposes": [
+   "To grow",
+   "To show real understanding"
+  ],
+  "id": 38
+ },
+ {
+  "date": "2017",
+  "type": "Grading and assessment design",
+  "region": "Kenya",
+  "title": "Kenya's Competency-Based Curriculum: how CBC assessment works",
+  "url": "https://standardmedia.co.ke/amp/explainers/article/2001436061/how-cbc-assessment-works",
+  "by": "The Standard (explainer, Jan 2022)",
+  "summary": "Explains Kenya's shift to teacher-run school-based assessment and national tests whose results are used for feedback rather than ranking.",
+  "also": [],
+  "purposes": [
+   "To grow"
+  ],
+  "id": 39
+ },
+ {
+  "date": "2015",
+  "type": "Grading and assessment design",
+  "region": "United States",
+  "title": "Specifications grading",
+  "url": "https://teaching.unl.edu/resources/grading-feedback/specifications-grading/",
+  "by": "Linda Nilson; overview from the University of Nebraska-Lincoln",
+  "summary": "Each piece of work is pass/fail against clear specs, students spend tokens on revisions or extensions, and they choose bundles of work that map to a grade.",
+  "also": [],
+  "purposes": [
+   "To grow"
+  ],
+  "id": 40
+ },
+ {
+  "date": "2012",
+  "type": "Grading and assessment design",
+  "region": "Netherlands and Australia",
+  "title": "Programmatic assessment",
+  "url": "https://www.mja.com.au/journal/2018/209/9/programmatic-assessment-process-rationale-and-evidence-modern-evaluation",
+  "by": "Cees van der Vleuten, Lambert Schuwirth and colleagues; explainer in the Medical Journal of Australia",
+  "summary": "Treats every task as one low-stakes data point and makes high-stakes decisions only by pooling many of them, so no single submission decides anything.",
+  "also": [],
+  "purposes": [
+   "To grow",
+   "To show real understanding"
+  ],
+  "id": 41
+ },
+ {
+  "date": "2009",
+  "type": "Grading and assessment design",
+  "region": "United States",
+  "title": "Transparency in Learning and Teaching (TILT)",
+  "url": "https://tilthighered.com/",
+  "by": "Mary-Ann Winkelmes",
+  "summary": "Asks teachers to make the purpose, task and criteria of every assignment explicit, which the MLA framework recommends for equity and motivation.",
+  "also": [],
+  "purposes": [
+   "To widen opportunity",
+   "To grow"
+  ],
+  "id": 42
+ },
+ {
+  "date": "2006",
+  "type": "Long-running alternatives",
+  "region": "Tonga and the Pacific",
+  "title": "Talanoa research methodology: a developing position on Pacific research",
+  "url": "https://researchcommons.waikato.ac.nz/handle/10289/6199",
+  "by": "Timote M. Vaioleti, Waikato Journal of Education",
+  "summary": "Sets out talanoa, a Tongan, Samoan and Fijian form of open conversation that evens out power between speakers, as a way of knowing that assessment can draw on.",
+  "also": [],
+  "purposes": [
+   "To learn with others"
+  ],
+  "id": 43
+ },
+ {
+  "date": "2002",
+  "type": "Long-running alternatives",
+  "region": "United States",
+  "title": "The Prospect Center's Descriptive Processes (revised edition)",
+  "url": "https://www.scribd.com/document/477146094/ProspectDescriptiveProcessesRevEd",
+  "by": "Patricia F. Carini and colleagues",
+  "summary": "Structured ways for teachers to study one child or one piece of work through careful description, with judgement held back.",
+  "also": [],
+  "purposes": [
+   "To learn with others",
+   "To grow"
+  ],
+  "id": 44
+ },
+ {
+  "date": "2002",
+  "type": "Grading and assessment design",
+  "region": "United States",
+  "title": "The Learning Record Online",
+  "url": "https://kairos.technorhetoric.net/7.3/coverweb/LRO/lrocomplete.htm",
+  "by": "Peg Syverson and John Slatin; Kairos 7.3",
+  "summary": "A portfolio built from observations, work samples and the student's own argument about their learning, with moderation between teachers in place of letter grades.",
+  "also": [],
+  "purposes": [
+   "To grow",
+   "To judge quality"
+  ],
+  "id": 45
+ },
+ {
+  "date": "2001",
+  "type": "Long-running alternatives",
+  "region": "Aotearoa New Zealand",
+  "title": "Learning Stories",
+  "url": "https://doi.org/10.1080/09669760.2023.2186837",
+  "by": "Margaret Carr and Wendy Lee; Te Whāriki, Aotearoa New Zealand",
+  "summary": "Assessment written as a story to the child and family, following a cycle of noticing, recognising and responding; the link is an open-access 2023 article on the practice.",
+  "also": [],
+  "purposes": [
+   "To learn with others",
+   "To grow"
+  ],
+  "id": 46
+ },
+ {
+  "date": "1990s",
+  "type": "Grading and assessment design",
+  "region": "United States",
+  "title": "New York Performance Standards Consortium",
+  "url": "https://www.performanceassessment.org/",
+  "by": "Public high schools in New York State",
+  "summary": "Students graduate by completing four performance tasks, each written and then defended orally, scored on common rubrics and reviewed by an outside board.",
+  "also": [
+   {
+    "label": "FairTest",
+    "url": "https://fairtest.org/article/performance-assessments-succeed-new-york/"
+   }
+  ],
+  "purposes": [
+   "To show real understanding"
+  ],
+  "id": 47
+ },
+ {
+  "date": "1990s",
+  "type": "Long-running alternatives",
+  "region": "Brazil",
+  "title": "Avaliação mediadora (mediating assessment)",
+  "url": "https://revistatopicos.com.br/artigos/a-avaliacao-mediadora-na-perspectiva-de-jussara-hoffmann-e-cipriano-carlos-luckesi-fundamentos-teoricos-desafios-contemporaneos-e-contribuicoes-para-a-aprendizagem-significativa-uma-revisao-integrativa-da-literatura",
+  "by": "Jussara Hoffmann",
+  "summary": "A Brazilian approach, influenced by Paulo Freire, that replaces ranking tests with ongoing dialogue between teacher and student about the learning (link is a 2026 review in Portuguese).",
+  "also": [],
+  "purposes": [
+   "To learn with others",
+   "To grow"
+  ],
+  "id": 48
+ },
+ {
+  "date": "1973",
+  "type": "Long-running alternatives",
+  "region": "United States",
+  "title": "Ability-based assessment at Alverno College",
+  "url": "https://www.alverno.edu/Registrar-Online-Courses",
+  "by": "Alverno College",
+  "summary": "A college that has given no grades since 1973, using feedback from faculty, peers and outside assessors and a narrative transcript.",
+  "also": [
+   {
+    "label": "Feedback Is Teaching (2015)",
+    "url": "https://edpreplab.org/sites/default/files/2024-06/Alverno-Feedback-Is-Teaching.pdf"
+   }
+  ],
+  "purposes": [
+   "To grow",
+   "To judge quality"
+  ],
+  "id": 49
+ },
+ {
+  "date": "1970s",
+  "type": "Long-running alternatives",
+  "region": "United States",
+  "title": "Narrative evaluation",
+  "url": "https://en.wikipedia.org/wiki/Narrative_evaluation",
+  "by": "Hampshire College, Evergreen State College and others",
+  "summary": "Written evaluations of each student's work in place of letter grades, used at several colleges since the early 1970s.",
+  "also": [],
+  "purposes": [
+   "To grow"
+  ],
+  "id": 50
+ }
+]

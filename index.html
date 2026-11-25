@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assessment Partner: lesson plan feedback | AI and Assessment Frameworks</title>
+<meta name="description" content="Upload a lesson or unit plan and get feedback from the three best-fitting frameworks in a library of 50 frameworks for assessment in a time of generative AI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0B0B0F;--mut:#6b6b80;--o:#FF6A00;--cream:#FBF8F1;--warm:#FFF9F5;--line:#eadfce;--card:#fff;--mono:ui-monospace,SFMono-Regular,Menlo,monospace}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font:400 16px/1.55 'Plus Jakarta Sans',system-ui,sans-serif;color:var(--ink);background:var(--warm)}
+a{color:inherit;text-decoration-color:var(--o);text-underline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto;padding:36px 22px 60px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--o);margin:0 0 10px}
+h1{font-size:clamp(34px,5vw,52px);line-height:1.05;letter-spacing:-.02em;margin:0 0 14px;font-weight:800}
+.lede{font-size:19px;max-width:70ch;margin:0 0 8px}
+.facts{color:var(--mut);font-size:15px;margin:0 0 28px}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:22px;align-items:start}
+@media (max-width:920px){.layout{grid-template-columns:1fr}}
+
+/* Chat panel */
+.panel{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;min-height:560px}
+.modes{display:flex;border-bottom:1px solid var(--line);background:var(--cream)}
+.mode{flex:1;border:0;background:transparent;font:700 15px/1.2 inherit;font-family:inherit;padding:16px 14px;cursor:pointer;color:var(--mut);border-bottom:3px solid transparent;text-align:left}
+.mode small{display:block;font-weight:500;font-size:13px;margin-top:3px}
+.mode[aria-selected=true]{color:var(--ink);border-bottom-color:var(--o);background:var(--card)}
+.mode:focus-visible{outline:2px solid var(--o);outline-offset:-2px}
+.log{flex:1;overflow-y:auto;padding:22px;display:flex;flex-direction:column;gap:16px;max-height:68vh;min-height:200px}
+.msg{max-width:100%}
+.msg.user{align-self:flex-end;background:var(--ink);color:#fff;border-radius:14px 14px 4px 14px;padding:11px 15px;max-width:82%;white-space:pre-wrap}
+.msg.bot{align-self:stretch;background:var(--cream);border:1px solid var(--line);border-radius:14px 14px 14px 4px;padding:14px 18px}
+.msg.bot h2,.msg.bot h3{font-size:18px;margin:16px 0 6px;line-height:1.3}
+.msg.bot h2:first-child,.msg.bot h3:first-child,.msg.bot p:first-child{margin-top:0}
+.msg.bot p{margin:0 0 10px}
+.msg.bot ul,.msg.bot ol{margin:0 0 10px;padding-left:22px}
+.msg.bot li{margin:3px 0}
+.msg.bot table{border-collapse:collapse;width:100%;font-size:14px;margin:6px 0 12px;display:block;overflow-x:auto}
+.msg.bot th,.msg.bot td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+.msg.bot th{background:#fff}
+.msg.bot code{font-family:var(--mono);font-size:13px;background:#fff;padding:1px 4px;border-radius:4px}
+.msg.bot hr{border:0;border-top:1px dashed var(--line);margin:12px 0}
+.tools-row{display:flex;gap:8px;margin-top:8px}
+.mini{font:600 13px/1 inherit;font-family:inherit;border:1px solid var(--line);background:#fff;border-radius:8px;padding:7px 10px;cursor:pointer;color:var(--ink)}
+.mini:hover{border-color:var(--ink)}
+.typing{color:var(--mut);font-size:14px}
+.typing::after{content:'';display:inline-block;width:1.2em;text-align:left;animation:dots 1.2s steps(4) infinite}
+@keyframes dots{0%{content:''}25%{content:'.'}50%{content:'..'}75%{content:'...'}}
+@media (prefers-reduced-motion:reduce){.typing::after{animation:none;content:'...'}}
+.starters{display:flex;flex-wrap:wrap;gap:8px;padding:0 22px 14px}
+.chip{font:600 14px/1.25 inherit;font-family:inherit;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:999px;padding:9px 14px;cursor:pointer;text-align:left}
+.chip:hover{border-color:var(--o);background:#fff1e6}
+.upload{padding:0 22px 16px}
+.drop{display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center;border:2px dashed var(--line);border-radius:14px;padding:26px 18px;cursor:pointer;background:var(--cream);transition:border-color .15s,background .15s}
+.drop:hover,.drop.over{border-color:var(--o);background:#fff1e6}
+.drop:focus-within{outline:2px solid var(--o);outline-offset:2px}
+.drop svg{color:var(--o)}
+.drop-t{font-weight:700;font-size:16px}
+.drop-s{font-size:13.5px;color:var(--mut);max-width:52ch}
+.drop input{position:absolute;width:1px;height:1px;opacity:0}
+.drop-or{font-size:13.5px;color:var(--mut);margin:10px 0 0;text-align:center}
+.attached{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 22px 12px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--cream);font-size:14px}
+.attached[hidden]{display:none}
+.attached .nm{font-weight:700}
+.attached .err{color:#a33a00}
+.msg.user .file{display:block;font-size:13px;opacity:.75;margin-bottom:4px}
+form.ask{display:flex;gap:10px;border-top:1px solid var(--line);padding:14px;background:var(--cream)}
+textarea{flex:1;resize:none;font:inherit;border:1px solid var(--line);border-radius:10px;padding:12px 14px;min-height:52px;max-height:200px;background:#fff;color:var(--ink)}
+textarea:focus{outline:2px solid var(--o);outline-offset:1px;border-color:transparent}
+.btn{font:700 15px/1 inherit;font-family:inherit;background:var(--ink);color:#fff;border:0;border-radius:10px;padding:0 20px;cursor:pointer;min-height:52px}
+.btn:hover{background:#26262e}
+.btn:disabled{opacity:.45;cursor:default}
+.btn:focus-visible,.chip:focus-visible,.mini:focus-visible{outline:2px solid var(--o);outline-offset:2px}
+.foot{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:0 16px 12px;background:var(--cream);font-size:13px;color:var(--mut)}
+.linkbtn{border:0;background:none;font:inherit;color:var(--mut);text-decoration:underline;cursor:pointer;padding:0}
+
+/* Library side */
+aside{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;position:sticky;top:16px;max-height:calc(100vh - 32px);display:flex;flex-direction:column}
+@media (max-width:920px){aside{position:static;max-height:none}}
+aside h2{font-size:18px;margin:0 0 4px}
+aside .sub{font-size:14px;color:var(--mut);margin:0 0 12px}
+.lens{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.lens button{font:600 12.5px/1 inherit;font-family:inherit;border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 10px;cursor:pointer;color:var(--ink)}
+.lens button[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.why{font-size:13.5px;margin:0 0 12px;padding:9px 12px;background:var(--cream);border-left:3px solid var(--o);border-radius:8px}
+.why:empty{display:none}
+.list{overflow-y:auto;display:flex;flex-direction:column;gap:8px;padding-right:4px}
+@media (max-width:920px){.list{max-height:420px}}
+.fw{border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.fw .meta{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--o)}
+.fw .t{font-weight:700;font-size:14px;line-height:1.3;margin:3px 0 2px}
+.fw .by{font-size:12.5px;color:var(--mut)}
+.fw .acts{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}
+.count{font-size:13px;color:var(--mut);margin:0 0 8px}
+.note{font-size:13px;color:var(--mut);margin-top:22px;max-width:75ch}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="eyebrow">Companion to the AI and Assessment Frameworks library</p>
+  <h1>Assessment Partner</h1>
+  <p class="lede">Upload a lesson or unit plan. The partner picks the three frameworks in the library that fit it best and gives you feedback through each one: what's already working, what to try, and the three changes to make first.</p>
+  <p class="facts">50 frameworks · 23 from the Global South and Asia · from 1970s narrative evaluation to 2026 · source: <a href="https://triciafriedman.com/ai-assessment-frameworks/">triciafriedman.com/ai-assessment-frameworks</a></p>
+
+  <div class="layout">
+    <section class="panel" aria-label="Plan feedback">
+      <div class="log" id="log" aria-live="polite"></div>
+      <div class="starters" id="starters"></div>
+      <div class="upload" id="upload" hidden>
+        <label class="drop" id="drop" for="file">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M12 17v-6"/><path d="m9 13 3-3 3 3"/></svg>
+          <span class="drop-t">Upload a lesson or unit plan</span>
+          <span class="drop-s">Word (.docx), PDF, or a text file, up to 10 MB. Drop it here or click to choose. From Google Docs: File, Download, Microsoft Word.</span>
+          <input type="file" id="file" accept=".docx,.pdf,.txt,.md,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain,text/markdown">
+        </label>
+        <p class="drop-or">Or paste your plan into the box below and press Send. Please take out student names first.</p>
+      </div>
+      <div class="attached" id="attached" hidden></div>
+      <form class="ask" id="form">
+        <label for="q" class="sr" style="position:absolute;left:-9999px">Your message</label>
+        <textarea id="q" rows="1" placeholder="Ask about a framework, or describe your unit"></textarea>
+        <button class="btn" id="send" type="submit">Send</button>
+      </form>
+      <div class="foot">
+        <span>Answers come only from the library's summaries, with links to each source.</span>
+        <button class="linkbtn" id="reset" type="button">Start over</button>
+      </div>
+    </section>
+
+    <aside aria-label="Browse the library">
+      <h2>Browse the library</h2>
+      <p class="sub">See what the partner draws from. Filter by what learning is for, and ask it to include any entry in your feedback.</p>
+      <div class="lens" id="lens"></div>
+      <p class="why" id="why"></p>
+      <p class="count" id="count"></p>
+      <div class="list" id="list"></div>
+    </aside>
+  </div>
+  <p class="note">The partner is an AI and can make mistakes. It knows each framework only through the library's one-line summary, so open the source before you rely on a detail. Conversations and uploaded plans aren't saved: a plan is sent to the AI only to answer you, and is gone when you leave the page. Built by <a href="https://triciafriedman.com/">Tricia Friedman</a>, shared under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.</p>
+</div>
+
+<script>
+(function(){
+var LENSES=[
+ ['all','All',''],
+ ['To grow','To grow','Learning as growth over time. These frameworks put feedback, revision and progress ahead of a single score.'],
+ ['To show real understanding','To show real understanding','Learning as capability that holds up. These ask students to show what they can do in ways that stay valid, with or without AI.'],
+ ['To judge quality','To judge quality',"Learning as the ability to tell good work from weak work, in your own work, in other people's and in what an AI produces."],
+ ['To learn with others','To learn with others','Learning as something done in relationship. These put dialogue, community and shared responsibility at the centre.'],
+ ['To widen opportunity','To widen opportunity','Learning as a way to open doors. These ask who an assessment serves, who it leaves out and who can afford the tools.']
+];
+var STARTERS={
+ ask:[
+  'Which frameworks are best for a K-12 teacher who is new to AI and assessment?',
+  'Compare the AI Assessment Scale with the Sydney two-lane approach.',
+  'What do the frameworks from Africa have in common?',
+  'Which entries replace grades altogether, and how?',
+  'What does the library say about AI detectors?'
+ ],
+ plan:[
+  'Help me plan a 3-week Grade 8 persuasive writing unit.',
+  'I teach Grade 11 biology. Rework my lab report assessment for AI.',
+  'Design a Grade 4 unit on local history with a talanoa-style assessment.',
+  'Turn my final essay into an interactive oral.'
+ ],
+ feedback:[]
+};
+var GREETING={
+ ask:"Hi. I know all 50 frameworks in the library. Ask me to find one for your context, compare a few, or explain how one could work in your classroom.",
+ feedback:"Share a lesson or unit plan and I'll pick the three frameworks in the library that fit it best, then give you feedback through each one: what's already working, what to try, and the three changes to make first. Add a note about anything you'd like me to focus on.",
+ plan:"Let's plan a unit. Tell me the subject, grade or level, how long the unit runs and what students should be able to do by the end. If you already have a unit, paste it in and I'll help you rework the assessment."
+};
+var mode='feedback', history=[], busy=false, frameworks=[];
+var log=document.getElementById('log'), form=document.getElementById('form'), q=document.getElementById('q'), send=document.getElementById('send'), startersEl=document.getElementById('starters');
+
+function esc(s){return s.replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+function inline(s){
+  s=esc(s);
+  s=s.replace(/`([^`]+)`/g,'<code>$1</code>');
+  s=s.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,function(m,t,u){return '<a href="'+u+'" target="_blank" rel="noopener">'+t+'</a>';});
+  s=s.replace(/(^|[\s(])(https?:\/\/[^\s<)]+)/g,function(m,p,u){return p+'<a href="'+u+'" target="_blank" rel="noopener">'+u+'</a>';});
+  s=s.replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
+  s=s.replace(/(^|[^*\w])\*([^*\n]+)\*(?!\w)/g,'$1<em>$2</em>');
+  s=s.replace(/(^|[^\w])_([^_\n]+)_(?!\w)/g,'$1<em>$2</em>');
+  return s;
+}
+function md(src){
+  var lines=src.replace(/\r/g,'').split('\n'), out=[], i=0, list=null;
+  function closeList(){if(list){out.push('</'+list+'>');list=null;}}
+  while(i<lines.length){
+    var l=lines[i];
+    if(/^\s*\|.*\|\s*$/.test(l) && i+1<lines.length && /^\s*\|[\s:|-]+\|\s*$/.test(lines[i+1])){
+      closeList();
+      var row=function(r,tag){return '<tr>'+r.trim().replace(/^\||\|$/g,'').split('|').map(function(c){return '<'+tag+'>'+inline(c.trim())+'</'+tag+'>';}).join('')+'</tr>';};
+      var t='<table><thead>'+row(l,'th')+'</thead><tbody>'; i+=2;
+      while(i<lines.length && /^\s*\|.*\|\s*$/.test(lines[i])){t+=row(lines[i],'td');i++;}
+      out.push(t+'</tbody></table>'); continue;
+    }
+    var h=l.match(/^(#{1,4})\s+(.*)$/);
+    if(h){closeList();var lv=h[1].length<=2?'h2':'h3';out.push('<'+lv+'>'+inline(h[2])+'</'+lv+'>');i++;continue;}
+    if(/^\s*(-{3,}|\*{3,})\s*$/.test(l)){closeList();out.push('<hr>');i++;continue;}
+    var ul=l.match(/^\s*[-*•]\s+(.*)$/), ol=l.match(/^\s*\d+[.)]\s+(.*)$/);
+    if(ul||ol){var want=ul?'ul':'ol';if(list!==want){closeList();out.push('<'+want+'>');list=want;}out.push('<li>'+inline((ul||ol)[1])+'</li>');i++;continue;}
+    if(!l.trim()){closeList();i++;continue;}
+    closeList();
+    var para=[l];i++;
+    while(i<lines.length && lines[i].trim() && !/^(#{1,4}\s|\s*[-*•]\s|\s*\d+[.)]\s|\s*\|)/.test(lines[i])){para.push(lines[i]);i++;}
+    out.push('<p>'+para.map(inline).join('<br>')+'</p>');
+  }
+  closeList();
+  return out.join('');
+}
+function addMsg(role,text){
+  var d=document.createElement('div');d.className='msg '+(role==='user'?'user':'bot');
+  if(role==='user'){d.textContent=text;}else{d.innerHTML=md(text);}
+  log.appendChild(d);log.scrollTop=log.scrollHeight;return d;
+}
+function addTools(el,text){
+  var row=document.createElement('div');row.className='tools-row';
+  var c=document.createElement('button');c.type='button';c.className='mini';c.textContent='Copy';
+  c.onclick=function(){navigator.clipboard.writeText(text).then(function(){c.textContent='Copied';setTimeout(function(){c.textContent='Copy';},1500);});};
+  row.appendChild(c);
+  if(text.length>1200){
+    var dl=document.createElement('button');dl.type='button';dl.className='mini';dl.textContent='Download as a file';
+    dl.onclick=function(){var b=new Blob([text],{type:'text/markdown'});var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='plan-feedback.md';a.click();setTimeout(function(){URL.revokeObjectURL(a.href);},500);};
+    row.appendChild(dl);
+  }
+  el.appendChild(row);
+}
+// ---- Uploads (feedback mode) ----
+var attachment=null, uploadEl=document.getElementById('upload'), attachedEl=document.getElementById('attached'), fileInput=document.getElementById('file'), drop=document.getElementById('drop');
+var MAX_BYTES=10*1024*1024;
+function kb(n){return n>1048576?(n/1048576).toFixed(1)+' MB':Math.max(1,Math.round(n/1024))+' KB';}
+// Minimal .docx reader: find word/document.xml in the zip and pull out paragraph text.
+async function readDocx(buf){
+  var dv=new DataView(buf), eocd=-1;
+  for(var i=buf.byteLength-22;i>=Math.max(0,buf.byteLength-66000);i--){if(dv.getUint32(i,true)===0x06054b50){eocd=i;break;}}
+  if(eocd<0) throw new Error('not a zip');
+  var n=dv.getUint16(eocd+10,true), p=dv.getUint32(eocd+16,true), entry=null;
+  for(var k=0;k<n;k++){
+    var method=dv.getUint16(p+10,true), csize=dv.getUint32(p+20,true), fnl=dv.getUint16(p+28,true), exl=dv.getUint16(p+30,true), cml=dv.getUint16(p+32,true), off=dv.getUint32(p+42,true);
+    var name=new TextDecoder().decode(new Uint8Array(buf,p+46,fnl));
+    if(name==='word/document.xml'){entry={method:method,csize:csize,off:off};break;}
+    p+=46+fnl+exl+cml;
+  }
+  if(!entry) throw new Error('no document.xml');
+  var lfnl=dv.getUint16(entry.off+26,true), lexl=dv.getUint16(entry.off+28,true);
+  var data=new Uint8Array(buf,entry.off+30+lfnl+lexl,entry.csize), xml;
+  if(entry.method===0){xml=new TextDecoder().decode(data);}
+  else{xml=await new Response(new Blob([data]).stream().pipeThrough(new DecompressionStream('deflate-raw'))).text();}
+  var doc=new DOMParser().parseFromString(xml,'application/xml'), W='http://schemas.openxmlformats.org/wordprocessingml/2006/main';
+  var out=[];
+  var paras=doc.getElementsByTagNameNS(W,'p');
+  for(var j=0;j<paras.length;j++){
+    var t='', walker=doc.createTreeWalker(paras[j],NodeFilter.SHOW_ELEMENT);
+    while(walker.nextNode()){var el=walker.currentNode;if(el.namespaceURI!==W)continue;if(el.localName==='t')t+=el.textContent;else if(el.localName==='tab')t+='\t';else if(el.localName==='br')t+='\n';}
+    var inCell=paras[j].parentNode&&paras[j].parentNode.localName==='tc';
+    if(t.trim()) out.push((inCell?'| ':'')+t);
+  }
+  return out.join('\n');
+}
+function readAsBase64(file){return new Promise(function(res,rej){var r=new FileReader();r.onload=function(){res(String(r.result).split(',')[1]||'');};r.onerror=rej;r.readAsDataURL(file);});}
+function showAttached(msg,isErr){
+  attachedEl.hidden=false;attachedEl.innerHTML='';
+  var s=document.createElement('span');
+  if(isErr){s.className='err';s.textContent=msg;}else{s.innerHTML='Attached: <span class="nm"></span> <span style="color:var(--mut)"></span>';s.querySelector('.nm').textContent=attachment.name;s.lastChild.textContent='('+msg+')';}
+  attachedEl.appendChild(s);
+  var rm=document.createElement('button');rm.type='button';rm.className='mini';rm.textContent=isErr?'Dismiss':'Remove';
+  rm.onclick=function(){attachment=null;attachedEl.hidden=true;fileInput.value='';renderStarters();};
+  if(!history.length||isErr) attachedEl.appendChild(rm);
+}
+async function takeFile(file){
+  if(!file) return;
+  var name=file.name||'plan', ext=(name.split('.').pop()||'').toLowerCase();
+  if(file.size>MAX_BYTES){showAttached(name+' is '+kb(file.size)+'. Please use a file under 10 MB.',true);return;}
+  try{
+    if(ext==='pdf'||file.type==='application/pdf'){
+      attachment={kind:'pdf',name:name,data:await readAsBase64(file)};
+      uploadEl.hidden=true;showAttached('PDF, '+kb(file.size));
+    }else if(ext==='docx'){
+      var text=await readDocx(await file.arrayBuffer());
+      if(!text.trim()) throw new Error('empty');
+      attachment={kind:'text',name:name,text:text};
+      uploadEl.hidden=true;showAttached('Word, '+text.split(/\s+/).length+' words');
+    }else if(ext==='txt'||ext==='md'||file.type.indexOf('text/')===0){
+      var t=await file.text();
+      if(!t.trim()) throw new Error('empty');
+      attachment={kind:'text',name:name,text:t};
+      uploadEl.hidden=true;showAttached('text, '+t.split(/\s+/).length+' words');
+    }else if(ext==='doc'){
+      showAttached("Older .doc files can't be read here. In Word, use File, Save As, and choose .docx, or paste the plan below.",true);
+    }else{
+      showAttached("That file type can't be read here. Please use .docx, PDF or a text file, or paste the plan below.",true);
+    }
+  }catch(e){
+    attachment=null;
+    showAttached("I couldn't read "+name+". Try saving it as PDF, or paste the plan below.",true);
+  }
+  q.focus();
+}
+fileInput.addEventListener('change',function(){takeFile(fileInput.files[0]);});
+['dragenter','dragover'].forEach(function(ev){drop.addEventListener(ev,function(e){e.preventDefault();drop.classList.add('over');});});
+['dragleave','drop'].forEach(function(ev){drop.addEventListener(ev,function(e){e.preventDefault();drop.classList.remove('over');});});
+drop.addEventListener('drop',function(e){if(e.dataTransfer.files.length)takeFile(e.dataTransfer.files[0]);});
+
+function renderStarters(){
+  startersEl.innerHTML='';
+  uploadEl.hidden=!(mode==='feedback'&&!history.length&&!attachment);
+  if(history.length) return;
+  STARTERS[mode].forEach(function(s){var b=document.createElement('button');b.type='button';b.className='chip';b.textContent=s;b.onclick=function(){ask(s);};startersEl.appendChild(b);});
+}
+function start(){
+  log.innerHTML='';history=[];attachment=null;attachedEl.hidden=true;fileInput.value='';
+  addMsg('assistant',GREETING[mode]);
+  q.placeholder=mode==='plan'?'Describe your unit, or paste one in':mode==='feedback'?'Add a note (optional), or paste your plan here':'Ask about a framework';
+  renderStarters();if(frameworks.length)renderList();
+}
+function setMode(m){
+  if(m===mode) return;
+  if(history.length && !confirm('Switching modes starts a new conversation. Continue?')) return;
+  mode=m;
+  document.querySelectorAll('.mode').forEach(function(b){b.setAttribute('aria-selected',b.dataset.mode===m?'true':'false');});
+  start();
+}
+document.querySelectorAll('.mode').forEach(function(b){b.onclick=function(){setMode(b.dataset.mode);};});
+document.getElementById('reset').onclick=function(){if(!history.length||confirm('Clear this conversation?'))start();};
+
+async function ask(text){
+  text=(text||'').trim();
+  if(!text&&mode==='feedback'&&attachment&&!history.length) text='Please give me feedback on this plan.';
+  if(!text||busy) return;
+  busy=true;send.disabled=true;startersEl.innerHTML='';uploadEl.hidden=true;
+  var um=addMsg('user',text);
+  if(mode==='feedback'&&attachment&&!history.length){var fl=document.createElement('span');fl.className='file';fl.textContent='Attached: '+attachment.name;um.insertBefore(fl,um.firstChild);var rmb=attachedEl.querySelector('.mini');if(rmb)rmb.remove();}
+  history.push({role:'user',content:text});
+  q.value='';autosize();
+  var bot=addMsg('assistant','');bot.innerHTML='<span class="typing">Reading the library</span>';
+  var reply='';
+  try{
+    var res=await fetch('/api/partner',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({mode:mode,messages:history,attachment:mode==='feedback'?attachment:null})});
+    if(res.status===413){throw new Error('too_large');}
+    if(!res.ok||!res.body){throw new Error('status '+res.status);}
+    var reader=res.body.getReader(),dec=new TextDecoder(),pending=0;
+    while(true){
+      var r=await reader.read(); if(r.done) break;
+      reply+=dec.decode(r.value,{stream:true});
+      if(!pending){pending=requestAnimationFrame(function(){pending=0;var near=log.scrollHeight-log.scrollTop-log.clientHeight<120;bot.innerHTML=md(reply);if(near)log.scrollTop=log.scrollHeight;});}
+    }
+    reply+=dec.decode();
+    if(pending){cancelAnimationFrame(pending);pending=0;}
+    if(!reply.trim()) throw new Error('empty');
+    bot.innerHTML=md(reply);addTools(bot,reply);
+    history.push({role:'assistant',content:reply});
+    if(history.length===2) renderList();
+  }catch(e){
+    bot.innerHTML=md(e&&e.message==='too_large'?"That file is too large to send. Try a smaller PDF, a .docx, or paste the plan as text.":"Sorry, I couldn't reach the partner just now. Please try again in a moment.");
+    history.pop();
+    if(!history.length) renderStarters();
+  }finally{busy=false;send.disabled=false;q.focus();}
+}
+form.addEventListener('submit',function(e){e.preventDefault();ask(q.value);});
+q.addEventListener('keydown',function(e){if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();ask(q.value);}});
+function autosize(){q.style.height='auto';q.style.height=Math.min(q.scrollHeight,200)+'px';}
+q.addEventListener('input',autosize);
+
+// Library browser
+var lensEl=document.getElementById('lens'),whyEl=document.getElementById('why'),listEl=document.getElementById('list'),countEl=document.getElementById('count'),lens='all';
+LENSES.forEach(function(L){var b=document.createElement('button');b.type='button';b.textContent=L[1];b.setAttribute('aria-pressed',L[0]==='all'?'true':'false');b.onclick=function(){lens=L[0];whyEl.textContent=L[2];lensEl.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false');});renderList();};lensEl.appendChild(b);});
+function renderList(){
+  var shown=frameworks.filter(function(f){return lens==='all'||f.purposes.indexOf(lens)!==-1;});
+  countEl.textContent=shown.length===frameworks.length?frameworks.length+' frameworks':'Showing '+shown.length+' of '+frameworks.length;
+  listEl.innerHTML='';
+  shown.forEach(function(f){
+    var d=document.createElement('div');d.className='fw';
+    d.innerHTML='<div class="meta">'+esc(f.date)+' · '+esc(f.region)+'</div><div class="t"><a href="'+esc(f.url)+'" target="_blank" rel="noopener">'+esc(f.title)+'</a></div><div class="by">'+esc(f.by)+'</div><div class="acts"></div>';
+    var acts=d.querySelector('.acts');
+    var u=document.createElement('button');u.type='button';u.className='mini';
+    u.textContent=history.length?'Look at my plan through this':'Include this one';
+    u.onclick=function(){
+      var line=history.length?'Look at my plan through "'+f.title+'". What is already working and what should I try?':'Please include "'+f.title+'" as one of the three frameworks.';
+      q.value=(q.value?q.value+'\n':'')+line;q.focus();autosize();
+    };
+    acts.appendChild(u);listEl.appendChild(d);
+  });
+}
+fetch('frameworks.json').then(function(r){return r.json();}).then(function(d){frameworks=d;renderList();});
+start();
+})();
+</script>
+</body>
+</html>
