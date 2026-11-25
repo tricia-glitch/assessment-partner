@@ -56,6 +56,8 @@
     '#tfap .p-link{border:0;background:none;font:inherit;color:var(--mut);text-decoration:underline;cursor:pointer;padding:0}',
     '#tfap .p-link[hidden]{display:none}',
     '#tfap .af-pick{margin-top:8px}',
+    '#tfap .p-own{margin:12px 0 0;padding-top:10px;border-top:1px solid rgba(127,127,127,.25);font-size:13px;color:var(--mut)}',
+    '#tfap .p-own a{color:inherit;text-decoration:underline}',
     '@media (max-width:640px){#tfap{padding:18px 16px 14px}#tfap h2.p-title{font-size:24px}#tfap form.p-form{flex-direction:column}#tfap .p-btn{min-height:46px}}'
   ].join('');
   var st = document.createElement('style');
@@ -74,7 +76,8 @@
     '<form class="p-form"><label style="position:absolute;left:-9999px" for="tfap-q">Your message</label>' +
     '<textarea id="tfap-q" rows="1" placeholder="Add a note (optional), or paste your plan here"></textarea>' +
     '<button class="p-btn" type="submit">Get feedback</button></form>' +
-    '<div class="p-foot"><span>Please take out student names first. Plans are not saved. The partner is an AI and knows each framework only through its summary here, so check the source before relying on a detail.</span><button class="p-link" type="button" hidden>Start over</button></div>';
+    '<div class="p-foot"><span>Please take out student names first. Plans are not saved. The partner is an AI and knows each framework only through its summary here, so check the source before relying on a detail.</span><button class="p-link" type="button" hidden>Start over</button></div>' +
+    '<p class="p-own">Want to run your own version, or one built on your school\'s own frameworks? The code is free for schools, teachers and nonprofits to adapt, with setup steps, <a href="https://github.com/tricia-glitch/assessment-partner" target="_blank" rel="noopener">on GitHub</a>.</p>';
 
   var drop = root.querySelector('.p-drop'), fileInput = drop.querySelector('input'),
     attachedEl = root.querySelector('.p-attached'), log = root.querySelector('.p-log'),
