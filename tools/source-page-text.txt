@@ -1,0 +1,276 @@
+
+AI and Assessment Frameworks
+Library · Links checked 19 November 2026
+A developing bank of frameworks for assessment in a time of generative AI.
+50 entries
+23 from the Global South and Asia
+Grouped by the year each one was first published, newest first
+What is learning for?AllTo growTo show real understandingTo judge qualityTo learn with othersTo widen opportunity
+TypeAllWritten for AIGrading and assessment designLong-running alternatives
+2026 [#af-2026]2025 [#af-2025]2024 [#af-2024]2023 [#af-2023]2017 to 2022 [#af-2017-2022]2001 to 2016 [#af-2001-2016]Before 2001 [#af-before-2001]2026 12
+Sep 2026Written for AIUnited States
+MLA Framework for AI-Resilient Assessment and Grading: Designing for Motivation and Validity [https://mlaai.hcommons.org/pedagogy-working-group/mla-framework-for-ai-resilient-assessment-and-grading-designing-for-motivation-and-validity/]
+MLA AI and Pedagogy Working Group
+A menu of options for humanities teachers that pairs trust-based practices for intrinsic motivation with guardrails for validity, and says plainly that no assessment is AI-proof.
+Also: PDF [https://hcommons.org/app/uploads/sites/1004574/2026/09/AITF-Assessment-Framework_09-15-26.pdf]
+Learning is for: To grow · To show real understanding
+Sep 2026Written for AIIndia
+Generative AI is forcing universities to rethink assessment [https://www.policycircle.org/opinion/generative-ai-universities-assess/]
+Policy Circle (commentary on IIT Delhi)
+Describes IIT Delhi's institute-wide AI licences, so access doesn't depend on what a student can pay, and an AI stress test that checks whether a model can complete an existing task too easily.
+Learning is for: To widen opportunity · To show real understanding
+Aug 2026Written for AISouth Africa
+Reconceptualising global citizenship education for the age of generative AI: an Ubuntu-informed framework for AI literacy [https://www.scielo.org.za/pdf/sajhe/v40n4/17.pdf]
+F. Waghid, South African Journal of Higher Education
+Argues from Ubuntu that universities should answer generative AI with a contextual, relational approach instead of surveillance and compliance.
+Learning is for: To learn with others · To widen opportunity
+Aug 2026Written for AILatin America
+How universities can govern AI (Integrity AI project) [https://tecscience.tec.mx/en/education-and-humanism/how-universities-can-govern-ai/]
+Tec de Monterrey, TecScience
+An Erasmus+ project that first assessed how ready universities in Mexico, Brazil, Colombia and Guatemala are to govern AI before building governance frameworks with them.
+Learning is for: To widen opportunity
+Jun 2026Written for AIUnited States
+AI and the Humanities: A Framework for Language and Literary Scholarship [https://mlaai.hcommons.org/ai-and-the-humanities-a-framework-for-language-and-literary-scholarship/]
+MLA AI and Research Working Group
+The MLA's companion framework on AI in research, which the assessment framework points to for guidance on citing and disclosing AI use.
+Learning is for: To judge quality
+Jun 2026Written for AIAustralia
+Enacting assessment reform in a time of artificial intelligence [https://www.teqsa.gov.au/sites/default/files/2026-06/enacting-assessment-reform-in-a-time-of-artificial-intelligence-web.pdf]
+TEQSA (Australia's higher education regulator)
+TEQSA's follow-up to its 2023 principles, on putting assessment reform into practice across whole programs.
+Learning is for: To show real understanding
+Apr 2026Written for AIMexico
+Guía de uso de inteligencia artificial generativa en evaluación educativa en licenciatura [https://www.cee.unam.mx/wp-content/uploads/2026/04/GUIA_USO_IAGEN_EVALUACION_LICENCIATURA_UNAM.pdf]
+UNAM Consejo de Evaluación Educativa
+Mexico's largest public university sets out how generative AI can serve undergraduate assessment, framed as a way to evaluate, learn and learn to evaluate (in Spanish).
+Learning is for: To judge quality · To grow
+Apr 2026Written for AISouth Africa
+Assessments in the age of AI [https://ai.uct.ac.za/node/615220]
+University of Cape Town AI Initiative
+Introduces UCT's Start with Outcomes approach, which places each learning outcome on a five-step scale from fully human to AI-dominant and then matches the assessment to it.
+Learning is for: To show real understanding
+Mar 2026Written for AIHong Kong
+Guidelines for Revising Programme Curricula to Integrate Generative AI [https://aihub.hkuspace.hku.hk/wp-content/uploads/2026/05/HKUSPACE_Guidelines_Integrating_GenAI_Curriculum_27032026.pdf]
+HKU School of Professional and Continuing Education
+Programme-level guidance that calls for AI-aware rubrics and asks students to keep a record of their AI use, including the tool, prompts and dates.
+Learning is for: To judge quality
+Feb 2026Written for AISouth Africa
+FEBE Guidelines for the Use of Generative Artificial Intelligence [https://www.wits.ac.za/media/wits-university/faculties-and-schools/-engineering-and-the-built-environment/documents/Guidlines-GAI.PDF]
+University of the Witwatersrand, Faculty of Engineering and the Built Environment
+Faculty guidance on generative AI in learning, teaching, research and administration, sitting under Wits' university-wide academic integrity framework.
+Learning is for: To show real understanding
+Feb 2026Written for AIUnited States
+Statement on AI and Assessment [https://www.mla.org/Resources/Advocacy/Executive-Council-Actions/2026/Statement-on-AI-and-Assessment]
+MLA Task Force on AI in Research and Teaching
+The MLA's earlier position statement on AI and assessment, which the September framework builds on.
+Learning is for: To grow · To show real understanding
+Jan 2026Written for AISouth Africa
+Responding to AI in Assessment in Universities: Do's, Don'ts and Don't Knows [https://files.su.ac.za/public/centre-teaching-and-learning/documents/2026-02/responding-ai-assessment-universities.pdf]
+University of Cape Town and Stellenbosch University
+A practical guide for lecturers that sorts advice into what to do, what to avoid and what nobody knows yet.
+Learning is for: To show real understanding
+2025 12
+Nov 2025Written for AISouth Africa
+Perspectives from South Africa on GenAI in Higher Education: A Postdigital Dialogue with the Global Context [https://link.springer.com/article/10.1007/s42438-025-00593-6]
+Postdigital Science and Education
+South African scholars, several writing from Ubuntu, argue that assessment can't be treated as neutral in universities that claim social justice goals.
+Learning is for: To widen opportunity · To learn with others
+Sep 2025Grading and assessment designIreland
+Interactive oral assessment: a model for robust and authentic assessment design [https://www.qqi.ie/sites/default/files/2026-04/dcu-interactive-oral-assessment-a-model-for-robust-and-authentic-assessment-design.pdf]
+Dublin City University, for Quality and Qualifications Ireland
+DCU's report on the interactive orals it has run since 2020, building on the Griffith model, with design guidance and student feedback.
+Learning is for: To show real understanding · To learn with others
+Sep 2025Written for AIAustralia
+The wicked problem of AI and assessment [https://doi.org/10.1080/02602938.2025.2553340]
+Corbin, Bearman, Boud and Dawson, Assessment and Evaluation in Higher Education
+Argues that AI and assessment is a wicked problem with no final solution, only ongoing adaptive work, the stance the MLA framework adopts.
+Learning is for: To show real understanding
+Aug 2025Grading and assessment designAustralia
+How interactive orals transform assessment and how to implement them [https://www.timeshighereducation.com/campus/how-ios-transform-assessment-and-how-implement-them]
+Popi Sotiriadou and Dani Logan-Fleming, THE Campus
+Explains interactive orals: unscripted, scenario-based professional conversations, deliberately different from a viva or a presentation.
+Learning is for: To show real understanding · To learn with others
+Jul 2025Written for AISouth Africa
+UCT scraps flawed AI detectors [https://news.uct.ac.za/article/-2025-07-24-uct-scraps-flawed-ai-detectors]
+University of Cape Town News
+UCT's announcement that it stopped using AI detection tools because they are unreliable.
+Learning is for: To widen opportunity
+May 2025Written for AIAustralia
+Talk is cheap: why structural assessment changes are needed for a time of GenAI [https://doi.org/10.1080/02602938.2025.2503964]
+Corbin et al., Assessment and Evaluation in Higher Education
+Argues that rules and declarations about AI use don't secure assessment on their own, and that the structure of the tasks has to change.
+Learning is for: To show real understanding
+May 2025Written for AIChina
+Guide to Using Generative AI in Primary and Secondary Schools (2025 Edition) [https://cset.georgetown.edu/publication/china-school-gen-ai-use-guide-2025/]
+China Ministry of Education, translated by CSET Georgetown
+China's national guide for schools, which keeps assessment human-led and advises against using AI to evaluate students directly.
+Learning is for: To learn with others
+May 2025Written for AIMexico
+Recomendaciones para el uso de inteligencia artificial generativa en la docencia (2nd edition) [https://iagen.unam.mx/recursos/Recomendaciones_IAGEN_UNAM_2025.pdf]
+UNAM
+UNAM's general recommendations for teaching with generative AI, including a chapter on assessment (in Spanish).
+Learning is for: To grow
+Apr 2025Written for AIPhilippines
+Policies on Generative Artificial Intelligence in Higher Education [https://old.dlsu.edu.ph/wp-content/uploads/pdf/provost/forms/policy-for-generative-ai-in-education.pdf]
+De La Salle University
+A university-wide policy that includes the rule that no decision should rest on generative AI output alone.
+Learning is for: To judge quality
+Mar 2025Written for AIAustralia
+The Sydney Assessment Framework [https://educational-innovation.sydney.edu.au/teaching@sydney/the-sydney-assessment-framework/]
+University of Sydney
+Sets out Sydney's two lanes: secure, supervised tasks that confirm learning, and open tasks where AI can't be banned and which make up most of the assessment.
+Also: Two-lane FAQ (Jul 2024) [https://educational-innovation.sydney.edu.au/teaching@sydney/frequently-asked-questions-about-the-two-lane-approach-to-assessment-in-the-age-of-ai/]
+Learning is for: To show real understanding
+2025Written for AIInternational
+AI Fluency Framework (the 4Ds) [https://www.anthropic.com/ai-fluency/overview]
+Rick Dakan and Joseph Feller with Anthropic
+Four competencies (Delegation, Description, Discernment, Diligence) that can serve as criteria for assessing how students work with AI.
+Learning is for: To judge quality
+2025Written for AIPan-African
+Decolonising AI: a Pan-African collaboration [https://ulspace.ul.ac.za/items/79d9bc37-e6ae-4374-b5ff-88d1cb20c9cd/full]
+Hoosen et al., University of Limpopo repository
+Looks at AI through a decolonial lens, with a focus on multilingualism, assessment and the language hierarchies built into training data.
+Learning is for: To widen opportunity
+2024 5
+Dec 2024Written for AICanada
+Ubuntu-informed approaches to addressing plagiarism and the use of AI in higher education [https://ojs.library.dal.ca/auts/article/view/12280]
+Susan Brigham and Randy Headley
+Draws on a survey of students of African descent to recommend Ubuntu-informed teaching about academic integrity and ethical AI use.
+Learning is for: To learn with others · To widen opportunity
+Aug 2024Written for AIInternational
+The AI Assessment Scale (revised) [https://leonfurze.com/2024/09/updating-the-ai-assessment-scale/]
+Mike Perkins, Jasper Roe, Jason MacVaugh and Leon Furze
+Five levels, from No AI to AI Exploration, that a teacher sets for each task; the 2024 revision dropped the traffic-light colours so the levels don't read as a ranking.
+Also: Paper (arXiv, Dec 2024) [https://arxiv.org/abs/2412.09029] · aiassessmentscale.com [https://aiassessmentscale.com/]
+Learning is for: To judge quality
+Aug 2024Long-running alternativesAotearoa New Zealand and Pacific
+Pasifika students' perceptions of using talanoa as an assessment tool in NCEA Level 2 mathematics [https://researchcommons.waikato.ac.nz/entities/publication/f451ffde-f2c2-452f-a839-e2e5c242e19b]
+Tafa Naulivou Sisitoutai, University of Waikato
+A study in which Pasifika students found talanoa, an open and respectful Pacific form of conversation, a more inclusive way to be assessed in maths.
+Learning is for: To learn with others · To widen opportunity
+Aug 2024Written for AISingapore
+Policy for Use of AI in Teaching and Learning [https://ctlt.nus.edu.sg/policy-for-use-of-ai-in-teaching-and-learning]
+National University of Singapore
+Allows AI in unsupervised work when it is acknowledged, and says that work should be graded on its quality without a penalty for the AI use itself.
+Learning is for: To widen opportunity
+2024Written for AIAustralia
+Developing evaluative judgement for a time of generative artificial intelligence [https://opus.lib.uts.edu.au/handle/10453/179196]
+Bearman, Tai, Dawson, Boud and Ajjawi
+Proposes building students' judgement of AI outputs and AI processes, and asks how AI might in turn assess students' own judgement.
+Learning is for: To judge quality
+2023 4
+Nov 2023Written for AIAustralia
+Assessment reform for the age of artificial intelligence [https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf]
+Lodge, Howard, Bearman and Dawson for TEQSA
+Two propositions and five principles from Australia's regulator, calling for assessment to be redesigned across whole programs rather than one task at a time.
+Learning is for: To show real understanding
+Nov 2023Written for AIUnited States
+AI Pedagogy Project [https://aipedagogy.org/]
+metaLAB (at) Harvard
+An open collection of classroom assignments, contributed by teachers around the world, that use AI critically and creatively.
+Learning is for: To judge quality · To grow
+2023Written for AIHong Kong
+A comprehensive AI policy education framework for university teaching and learning [https://link.springer.com/10.1186/s41239-023-00408-3]
+Cecilia Ka Yuk Chan, University of Hong Kong
+Builds an AI Ecological Education Policy Framework with pedagogical, governance and operational dimensions from a survey of 457 students and 180 staff.
+Also: arXiv [https://arxiv.org/abs/2305.00280]
+Learning is for: To learn with others
+2023Written for AIHong Kong
+Guidelines and Principles on Using Generative AI for Higher Education [https://cei.hkust.edu.hk/zh-hk/node/492]
+HKUST Center for Education Innovation
+HKUST's course-level policy, in force since Fall 2023, which lets each instructor set their own AI rules.
+Also: Faculty Companion [https://cei.hkust.edu.hk/sites/default/files/content/GenAI%20Faculty%20Companion%20(HKUST).html]
+Learning is for: To judge quality
+2017 to 2022 6
+Apr 2022Grading and assessment designUnited States
+Writing Assessment: A Position Statement [https://cccc.ncte.org/cccc/resources/positions/writingassessment]
+Conference on College Composition and Communication
+The writing-studies position that assessment is a social activity that should serve learning, one of the MLA framework's foundations.
+Learning is for: To grow · To widen opportunity
+Oct 2020Grading and assessment designChina
+Overall Plan for Deepening Educational Evaluation Reform in the New Era (English translation) [https://internationaleducation.gov.au/international-network/china/PolicyUpdates-China/Documents/2.%20Translation%20of%20Overall%20Plan%20for%20Deepening%20Educational%20Evaluation%20Reform%20in%20the%20New%20Era%20-%20final.pdf]
+CPC Central Committee and State Council, translated by the Australian Government
+A national plan to reduce the weight of exam scores and diplomas, strengthen process evaluation and explore value-added evaluation that measures growth.
+Learning is for: To grow
+2019Grading and assessment designUnited States
+Writing Assessment, Social Justice, and the Advancement of Opportunity [https://wacclearinghouse.org/books/perspectives/assessment/]
+Mya Poe, Asao B. Inoue and Norbert Elliot (eds.), WAC Clearinghouse
+An open-access collection on making writing assessment fairer, cited by the MLA on the limits of timed, tech-free testing.
+Learning is for: To widen opportunity
+2018Grading and assessment designAustralia
+Developing evaluative judgement: enabling students to make decisions about the quality of work [https://link.springer.com/article/10.1007/s10734-017-0220-3]
+Tai, Ajjawi, Boud, Dawson and Panadero, Higher Education
+Defines evaluative judgement, the ability to judge the quality of your own and others' work, and argues it should be a goal of higher education.
+Learning is for: To judge quality
+2017Grading and assessment designUnited States and international
+Mastery Transcript Consortium [https://mastery.org/what-we-do/]
+Network of secondary schools
+Replaces grades and GPAs with credits for competencies each school defines, recorded on a transcript colleges now accept.
+Also: The 74 on its first test [https://www.the74million.org/article/the-mastery-transcript-consortium-has-been-developing-a-gradeless-transcript-for-college-admissions-this-fall-it-gets-its-first-test/]
+Learning is for: To grow · To show real understanding
+2017Grading and assessment designKenya
+Kenya's Competency-Based Curriculum: how CBC assessment works [https://standardmedia.co.ke/amp/explainers/article/2001436061/how-cbc-assessment-works]
+The Standard (explainer, Jan 2022)
+Explains Kenya's shift to teacher-run school-based assessment and national tests whose results are used for feedback rather than ranking.
+Learning is for: To grow
+2001 to 2016 7
+2015Grading and assessment designUnited States
+Specifications grading [https://teaching.unl.edu/resources/grading-feedback/specifications-grading/]
+Linda Nilson; overview from the University of Nebraska-Lincoln
+Each piece of work is pass/fail against clear specs, students spend tokens on revisions or extensions, and they choose bundles of work that map to a grade.
+Learning is for: To grow
+2012Grading and assessment designNetherlands and Australia
+Programmatic assessment [https://www.mja.com.au/journal/2018/209/9/programmatic-assessment-process-rationale-and-evidence-modern-evaluation]
+Cees van der Vleuten, Lambert Schuwirth and colleagues; explainer in the Medical Journal of Australia
+Treats every task as one low-stakes data point and makes high-stakes decisions only by pooling many of them, so no single submission decides anything.
+Learning is for: To grow · To show real understanding
+2009Grading and assessment designUnited States
+Transparency in Learning and Teaching (TILT) [https://tilthighered.com/]
+Mary-Ann Winkelmes
+Asks teachers to make the purpose, task and criteria of every assignment explicit, which the MLA framework recommends for equity and motivation.
+Learning is for: To widen opportunity · To grow
+2006Long-running alternativesTonga and the Pacific
+Talanoa research methodology: a developing position on Pacific research [https://researchcommons.waikato.ac.nz/handle/10289/6199]
+Timote M. Vaioleti, Waikato Journal of Education
+Sets out talanoa, a Tongan, Samoan and Fijian form of open conversation that evens out power between speakers, as a way of knowing that assessment can draw on.
+Learning is for: To learn with others
+2002Long-running alternativesUnited States
+The Prospect Center's Descriptive Processes (revised edition) [https://www.scribd.com/document/477146094/ProspectDescriptiveProcessesRevEd]
+Patricia F. Carini and colleagues
+Structured ways for teachers to study one child or one piece of work through careful description, with judgement held back.
+Learning is for: To learn with others · To grow
+2002Grading and assessment designUnited States
+The Learning Record Online [https://kairos.technorhetoric.net/7.3/coverweb/LRO/lrocomplete.htm]
+Peg Syverson and John Slatin; Kairos 7.3
+A portfolio built from observations, work samples and the student's own argument about their learning, with moderation between teachers in place of letter grades.
+Learning is for: To grow · To judge quality
+2001Long-running alternativesAotearoa New Zealand
+Learning Stories [https://doi.org/10.1080/09669760.2023.2186837]
+Margaret Carr and Wendy Lee; Te Whāriki, Aotearoa New Zealand
+Assessment written as a story to the child and family, following a cycle of noticing, recognising and responding; the link is an open-access 2023 article on the practice.
+Learning is for: To learn with others · To grow
+Before 2001 4
+1990sGrading and assessment designUnited States
+New York Performance Standards Consortium [https://www.performanceassessment.org/]
+Public high schools in New York State
+Students graduate by completing four performance tasks, each written and then defended orally, scored on common rubrics and reviewed by an outside board.
+Also: FairTest [https://fairtest.org/article/performance-assessments-succeed-new-york/]
+Learning is for: To show real understanding
+1990sLong-running alternativesBrazil
+Avaliação mediadora (mediating assessment) [https://revistatopicos.com.br/artigos/a-avaliacao-mediadora-na-perspectiva-de-jussara-hoffmann-e-cipriano-carlos-luckesi-fundamentos-teoricos-desafios-contemporaneos-e-contribuicoes-para-a-aprendizagem-significativa-uma-revisao-integrativa-da-literatura]
+Jussara Hoffmann
+A Brazilian approach, influenced by Paulo Freire, that replaces ranking tests with ongoing dialogue between teacher and student about the learning (link is a 2026 review in Portuguese).
+Learning is for: To learn with others · To grow
+1973Long-running alternativesUnited States
+Ability-based assessment at Alverno College [https://www.alverno.edu/Registrar-Online-Courses]
+Alverno College
+A college that has given no grades since 1973, using feedback from faculty, peers and outside assessors and a narrative transcript.
+Also: Feedback Is Teaching (2015) [https://edpreplab.org/sites/default/files/2024-06/Alverno-Feedback-Is-Teaching.pdf]
+Learning is for: To grow · To judge quality
+1970sLong-running alternativesUnited States
+Narrative evaluation [https://en.wikipedia.org/wiki/Narrative_evaluation]
+Hampshire College, Evergreen State College and others
+Written evaluations of each student's work in place of letter grades, used at several colleges since the early 1970s.
+Learning is for: To grow
+How this list was checked
+Every link was opened on 19 November 2026. Pages that block automated checks (Taylor and Francis, Springer, TEQSA) were opened in a browser. Dates come from the source itself; where a framework is older than the page linked, the date is the framework’s and the link says what it is. A few items were left out because they sit behind a university login.
